@@ -16,7 +16,11 @@ RUN apk add\
  glib-dev glib-static\
  zlib-dev zlib-static\
  flex\
- bison
+ bison\
+ pixman-dev pixman-static\
+ musl-dev\
+ bzip2-static\
+ ncurses-static
 
 # additional
 RUN apk add bash xz git patch
